@@ -29,7 +29,7 @@ dependencies:
   font_awesome_flutter: ^8.5.0
   shared_preferences: ^0.5.3+4
   cached_network_image: ^1.1.1
-  shared: ^0.6.2+1
+  # shared: ^0.6.2+1
 
 dev_dependencies:
   flutter_test:
@@ -72,7 +72,7 @@ flutter:
   fonts:
     - family: GoogleSans
       fonts:
-        - asset: asset/fonts/GoogleSansRegular.ttf
+        - asset: assets/fonts/GoogleSansRegular.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
