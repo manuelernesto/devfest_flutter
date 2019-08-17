@@ -38,25 +38,25 @@ class HomeFront extends StatelessWidget {
             IconButton(
               icon: Icon(FontAwesomeIcons.facebookF),
               onPressed: () async {
-                await _launchURL("https://facebook.com/imthepk");
+                await _launchURL("https://facebook.com/manuelernest0");
               },
             ),
             IconButton(
               icon: Icon(FontAwesomeIcons.twitter),
               onPressed: () async {
-                await _launchURL("https://twitter.com/imthepk");
+                await _launchURL("https://twitter.com/manuelernest0");
               },
             ),
             IconButton(
               icon: Icon(FontAwesomeIcons.linkedinIn),
               onPressed: () async {
-                _launchURL("https://linkedin.com/in/imthepk");
+                _launchURL("https://linkedin.com/in/manuelernesto");
               },
             ),
             IconButton(
               icon: Icon(FontAwesomeIcons.youtube),
               onPressed: () async {
-                await _launchURL("https://youtube.com/mtechviral");
+                await _launchURL("https://youtube.com/");
               },
             ),
             IconButton(
@@ -69,7 +69,7 @@ class HomeFront extends StatelessWidget {
               icon: Icon(FontAwesomeIcons.envelope),
               onPressed: () async {
                 var emailUrl =
-                    '''mailto:mtechviral@gmail.com?subject=Support Needed For DevFest App&body={Name: Pawan Kumar},Email: pawan221b@gmail.com}''';
+                    '''mailto:alemdadox@gmail.com?subject=Need an App App&body={Name: Manuel Ernesto},Email: alemdadox@gmail.com}''';
                 var out = Uri.encodeFull(emailUrl);
                 await _launchURL(out);
               },
